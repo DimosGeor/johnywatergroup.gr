@@ -1,0 +1,531 @@
+# Translation of Plugins - Burst Statistics &#8211; Privacy-Friendly Analytics for WordPress - Stable (latest release) in Greek
+# This file is distributed under the same license as the Plugins - Burst Statistics &#8211; Privacy-Friendly Analytics for WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-05 06:50:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - Burst Statistics &#8211; Privacy-Friendly Analytics for WordPress - Stable (latest release)\n"
+
+#: settings/config/config.php:133
+msgid "Honor 'Do Not Track' requests"
+msgstr "Αποδοχή αιτημάτων 'Αποτροπής Καταγραφής'"
+
+#: upgrade/upgrade-to-pro.php:450
+msgid "Could not rename folder!"
+msgstr "Δεν ήταν δυνατή η μετονομασία του φακέλου!"
+
+#: statistics/class-statistics.php:682
+msgid "Count"
+msgstr "Καταμέτρηση"
+
+#: statistics/class-statistics.php:677
+msgid "Referrer"
+msgstr "Παραπομπή"
+
+#: statistics/class-statistics.php:268
+msgid "Average time on page"
+msgstr "Μέσος χρόνος στη σελίδα"
+
+#: statistics/class-statistics.php:263
+msgid "Total pageviews"
+msgstr "Συνολικές προβολές σελίδας"
+
+#: statistics/class-statistics.php:260
+msgid "This website referred the most visitors."
+msgstr "Αυτός ο ιστότοπος παρέπεμψε τους περισσότερους επισκέπτες."
+
+#: statistics/class-statistics.php:255
+msgid "This is your most viewed page for today."
+msgstr "Αυτή είναι η σελίδα με τις περισσότερες προβολές για σήμερα."
+
+#: statistics/class-statistics.php:250
+msgid "This is the total amount of unique visitors for today."
+msgstr "Αυτός είναι ο συνολικός αριθμός μοναδικών επισκεπτών για σήμερα."
+
+#: statistics/class-statistics.php:246
+msgid "The amount of people using your website right now. The data updates every 5 seconds."
+msgstr "Ο αριθμός των ατόμων που χρησιμοποιούν τον ιστότοπό σας αυτήν τη στιγμή. Τα δεδομένα ενημερώνονται κάθε 5 δευτερόλεπτα."
+
+#: statistics/class-statistics.php:147
+#: settings/build/910.b552d033d984703d1f32.js:1
+#: settings/src/components/blocks/InsightsHeader.js:15
+msgid "Bounces"
+msgstr "Εγκαταλείψεις"
+
+#: settings/settings.php:484
+msgid "Terms and Conditions"
+msgstr "Όροι και Προϋποθέσεις"
+
+#: settings/settings.php:469
+msgid "Self-hosted, Privacy-friendly analytics tool."
+msgstr "Αυτοφιλοξενούμενο, με γνώμονα το απόρρητο, εργαλείο αναλυτικών στοιχείων."
+
+#: settings/config/config.php:38 settings/config/config.php:43
+#: settings/config/config.php:153 settings/build/518.935000857b1bbb0d1d8d.js:1
+#: settings/src/components/blocks/GoalsBlock.js:128
+#: settings/src/components/blocks/GoalsBlock.js:145
+msgid "Goals"
+msgstr "Απώτεροι στόχοι"
+
+#: settings/config/config.php:182
+msgid "Exclude IP address from tracking, separate with a line break"
+msgstr "Εξαίρεση διεύθυνσης IP από την παρακολούθηση, διαχωρισμός με αλλαγή γραμμής"
+
+#: settings/config/config.php:171
+msgid "You can exclude visitors by user role and IP address. This will affect new data only."
+msgstr "Μπορείτε να εξαιρέσετε επισκέπτες κατά ρόλο χρήστη και διεύθυνση IP. Αυτό θα επηρεάσει μόνο τα νέα δεδομένα."
+
+#: settings/config/config.php:170
+msgid "Excluding visitors"
+msgstr "Εξαίρεση επισκεπτών"
+
+#: settings/config/config.php:167
+msgid "Exclude user roles from being tracked"
+msgstr "Εξαίρεση ρόλων χρήστη από την καταγραφή"
+
+#: settings/config/config.php:144
+msgid "Restart plugin tour"
+msgstr "Επανεκκίνηση περιήγησης πρόσθετου"
+
+#: settings/config/config.php:143
+msgid "Restart"
+msgstr "Επανεκκίνηση"
+
+#: settings/config/config.php:122
+msgid "With cookieless tracking enabled, Burst will not use cookies to determine the number of unique visitors. It will use contextual data, like the browser version and device, also called 'fingerprinting'. The latter could be less reliable for some users."
+msgstr "Με ενεργοποιημένη την καταγραφή χωρίς cookies, το Burst δεν θα χρησιμοποιεί cookies για την αντιστοίχιση δεδομένων καταγραφής με χρήστες. Θα χρησιμοποιεί συγκυριακά δεδομένα, όπως την έκδοση του προγράμματος περιήγησης και τη συσκευή, που ονομάζονται επίσης «δακτυλικά αποτυπώματα». Το τελευταίο θα μπορούσε να είναι λιγότερο αξιόπιστο για ορισμένους χρήστες."
+
+#: settings/config/config.php:121
+msgid "What is Cookieless tracking?"
+msgstr "Τι είναι η καταγραφή χωρίς cookies;"
+
+#: settings/config/config.php:106
+msgid "What is Turbo mode?"
+msgstr "Τι είναι η λειτουργία Turbo;"
+
+#: settings/config/config.php:55
+msgid "Tracking"
+msgstr "Καταγραφή"
+
+#: settings/config/config.php:50
+msgid "Advanced"
+msgstr "Προηγμένες"
+
+#: settings/config/config.php:26 settings/config/config.php:31
+msgid "General"
+msgstr "Γενικά"
+
+#: cron/cron.php:38
+msgid "Once every 5 minutes"
+msgstr "Μία φορά κάθε 5 λεπτά"
+
+#: class-notices.php:71
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: settings/config/config.php:107
+msgid "Turbo mode improves pagespeed. When enabled, the script is no longer loaded in the header asynchronously, but is loaded in the footer and deferred. You could lose data from visitors who leave before the page has fully loaded."
+msgstr "Η λειτουργία Turbo βελτιώνει την ταχύτητα σελίδας. Όταν είναι ενεργοποιημένη, το script δεν φορτώνεται πλέον ασύγχρονα στην κεφαλίδα, αλλά φορτώνεται στο υποσέλιδο με το χαρακτηριστικό defer. Θα μπορούσατε να χάσετε δεδομένα από επισκέπτες που αποχωρούν πριν από την πλήρη φόρτωση της σελίδας."
+
+#: class-notices.php:70
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+#: class-notices.php:137
+msgid "Black Friday sale! Get 40% Off Burst Pro."
+msgstr "Έκπτωση Black Friday! Αποκτήστε έκπτωση 40% του Burst Pro."
+
+#: class-notices.php:69
+msgid "New!"
+msgstr "Νέο!"
+
+#: settings/config/config.php:103
+msgid "Enable Turbo mode"
+msgstr "Ενεργοποίηση λειτουργίας Turbo"
+
+#: class-notices.php:123
+msgid "Due to your server or website configuration it is not possible to track statistics."
+msgstr "Λόγω της ρύθμισης των παραμέτρων του διακομιστή ή του ιστότοπού σας, δεν είναι δυνατή η καταγραφή στατιστικών στοιχείων."
+
+#: settings/config/config.php:118
+msgid "Enable Cookieless tracking"
+msgstr "Ενεργοποίηση Καταγραφής χωρίς cookies"
+
+#: statistics/class-statistics.php:945 statistics/class-statistics.php:958
+msgid "No pageviews"
+msgstr "Δεν υπάρχουν προβολές σελίδας"
+
+#: statistics/class-statistics.php:934 statistics/class-statistics.php:956
+msgid "No referrers"
+msgstr "Δεν υπάρχουν παραπομπές"
+
+#. Description of the plugin
+msgid "Get detailed insights into visitors’ behavior with Burst Statistics, the privacy-friendly analytics dashboard from Really Simple Plugins."
+msgstr "Λάβετε σημαντικές πληροφορίες σχετικά με τη συμπεριφορά των επισκεπτών με το πρόσθετο Burst Statistics, τον πίνακα ελέγχου αναλυτικών στοιχείων με γνώμονα το απόρρητο από τη Really Simple Plugins."
+
+#. Plugin Name of the plugin
+msgid "Burst Statistics - Privacy-Friendly Analytics for WordPress"
+msgstr "Burst Statistics - Αναλυτικά στοιχεία με γνώμονα το απόρρητο για το WordPress"
+
+#: class-admin.php:68
+msgid "This website uses Burst Statistics, a Privacy-Friendly Statistics Tool to analyze visitor behavior. For this functionality we (this website) collect anonymized data, stored locally without sharing it with other parties. For more information, please read the %s Privacy Statement %s from Burst."
+msgstr "Αυτός ο ιστότοπος χρησιμοποιεί το Burst Statistics, ένα εργαλείο στατιστικών με γνώμονα το απόρρητο για την ανάλυση της συμπεριφοράς των επισκεπτών. Για αυτή τη λειτουργία συλλέγουμε ανωνυμοποιείται δεδομένα, αποθηκευμένα τοπικά χωρίς να τα κοινοποιούμε με άλλα μέρη. Για περισσότερες πληροφορίες, παρακαλώ διαβάστε τη %s Δήλωση Απορρήτου %s από την Burst."
+
+#. Plugin URI of the plugin
+msgid "https://www.wordpress.org/plugins/burst-statistics"
+msgstr "https://www.wordpress.org/plugins/burst-statistics"
+
+#: settings/templates/wordpress/dashboard-widget.php:30
+msgid "Avg. time per session"
+msgstr "Μέσος χρόνος ανά συνεδρία"
+
+#: upgrade/upgrade-to-pro.php:579
+msgid "Your license key has reached its activation limit."
+msgstr "Το κλειδί άδειας χρήσης σας έχει συμπληρώσει το όριο ενεργοποιήσεών."
+
+#: upgrade/upgrade-to-pro.php:576
+msgid "This appears to be an invalid license key for this plugin."
+msgstr "Αυτό φαίνεται να είναι ένα μη έγκυρο κλειδί άδειας χρήσης για αυτό το πρόσθετο."
+
+#: upgrade/upgrade-to-pro.php:573
+msgid "Your license is not active for this URL."
+msgstr "Η άδεια χρήσης σας δεν είναι ενεργή για αυτήν τη διεύθυνση URL."
+
+#: upgrade/upgrade-to-pro.php:570
+msgid "Invalid license."
+msgstr "Μη έγκυρη άδεια χρήσης."
+
+#: upgrade/upgrade-to-pro.php:567
+msgid "Missing license."
+msgstr "Λείπει η άδεια χρήσης."
+
+#: upgrade/upgrade-to-pro.php:564
+msgid "Your license key has been disabled."
+msgstr "Το κλειδί άδειας χρήσης σας έχει απενεργοποιηθεί."
+
+#: upgrade/upgrade-to-pro.php:558
+msgid "Your license key expired on %s."
+msgstr "Το κλειδί άδειας χρήσης σας έληξε στις %s."
+
+#: upgrade/upgrade-to-pro.php:550 upgrade/upgrade-to-pro.php:582
+msgid "An error occurred, please try again."
+msgstr "Παρουσιάστηκε σφάλμα, παρακαλώ προσπαθήστε ξανά."
+
+#: upgrade/upgrade-to-pro.php:374
+msgid "Check your %slicense%s."
+msgstr "Ελέγξτε την %sάδεια χρήσης%s σας."
+
+#: upgrade/upgrade-to-pro.php:373
+msgid "Install %sManually%s."
+msgstr "Χειροκίνητη %sεγκατάσταση%s."
+
+#: upgrade/upgrade-to-pro.php:373 upgrade/upgrade-to-pro.php:374
+msgid "An Error Occurred:"
+msgstr "Παρουσιάστηκε σφάλμα:"
+
+#: upgrade/upgrade-to-pro.php:368
+msgid "Visit Dashboard"
+msgstr "Επισκεφθείτε τον Πίνακα Ελέγχου"
+
+#: upgrade/upgrade-to-pro.php:357
+msgid "Installing"
+msgstr "Πραγματοποιείται εγκατάσταση"
+
+#: upgrade/upgrade-to-pro.php:332
+msgid "Recommended by Really Simple Plugins"
+msgstr "Συνιστάται από την Really Simple Plugins"
+
+#: upgrade/upgrade-to-pro.php:234
+msgid "Installation finished"
+msgstr "Η εγκατάσταση ολοκληρώθηκε"
+
+#: upgrade/upgrade-to-pro.php:179
+msgid "Really Simple SSL automatically detects your settings and configures your website to run over HTTPS. To keep it lightweight, we kept the options to a minimum. Your website will move to SSL with one click."
+msgstr "Το Really Simple SSL ανιχνεύει αυτόματα τις ρυθμίσεις σας και ρυθμίζει τις παραμέτρους του ιστότοπου σας ώστε να εκτελείται μέσω HTTPS. Για να το διατηρήσουμε ελαφρύ, κρατήσαμε τις επιλογές στο ελάχιστο. Ο ιστότοπός σας θα μετακινηθεί στο SSL με ένα κλικ."
+
+#: upgrade/upgrade-to-pro.php:175
+msgid "One click SSL optimization"
+msgstr "Βελτιστοποίηση του SSL με ένα κλικ"
+
+#: upgrade/upgrade-to-pro.php:162
+msgid "Configure your Cookie Notice, Cookie Consent and Cookie Policy with our Wizard and Cookie Scan. Supports GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA and PIPEDA."
+msgstr "Ρυθμίστε τις παραμέτρους της Ειδοποίησης για τα Cookies, της Συγκατάθεσης για τα Cookies και της Πολιτικής Cookies σας με τον Οδηγό μας και τη Σάρωση των Cookies. Υποστηρίζονται ο ΓΚΠΔ, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA και PIPEDA."
+
+#: upgrade/upgrade-to-pro.php:158
+msgid "GDPR/CCPA Privacy Suite"
+msgstr "GDPR/CCPA Privacy Suite"
+
+#: upgrade/upgrade-to-pro.php:149
+msgid "Get detailed insights into visitors' behaviour with Burst Statistics, the privacy-friendly analytics dashboard from Really Simple Plugins."
+msgstr "Λάβετε σημαντικές πληροφορίες σχετικά με τη συμπεριφορά των επισκεπτών με το πρόσθετο Burst Statistics, τον πίνακα ελέγχου αναλυτικών στοιχείων με γνώμονα το απόρρητο από τη Really Simple Plugins."
+
+#: upgrade/upgrade-to-pro.php:145
+msgid "Self-hosted and privacy-friendly analytics tool."
+msgstr "Αυτοφιλοξενούμενο και με γνώμονα το απόρρητο, εργαλείο αναλυτικών στοιχείων."
+
+#: upgrade/upgrade-to-pro.php:112
+msgid "Failed to activate plugin"
+msgstr "Απέτυχε η ενεργοποίηση του πρόσθετου"
+
+#: upgrade/upgrade-to-pro.php:111
+msgid "Plugin activated"
+msgstr "Το πρόσθετο ενεργοποιήθηκε"
+
+#: upgrade/upgrade-to-pro.php:110
+msgid "Activating plugin..."
+msgstr "Ενεργοποίηση πρόσθετου..."
+
+#: upgrade/upgrade-to-pro.php:105
+msgid "Failed to install plugin"
+msgstr "Απέτυχε η εγκατάσταση του πρόσθετου"
+
+#: upgrade/upgrade-to-pro.php:104
+msgid "Plugin installed"
+msgstr "Το πρόσθετο εγκαταστάθηκε"
+
+#: upgrade/upgrade-to-pro.php:103
+msgid "Installing plugin..."
+msgstr "Πραγματοποιείται εγκατάσταση του πρόσθετου..."
+
+#: upgrade/upgrade-to-pro.php:98
+msgid "Failed to gather package information"
+msgstr "Απέτυχε η συλλογή πληροφοριών του πακέτου"
+
+#: upgrade/upgrade-to-pro.php:97
+msgid "Package information retrieved"
+msgstr "Ανακτήθηκαν οι πληροφορίες του πακέτου"
+
+#: upgrade/upgrade-to-pro.php:96
+msgid "Retrieving package information..."
+msgstr "Ανάκτηση πληροφοριών του πακέτου..."
+
+#: upgrade/upgrade-to-pro.php:91
+msgid "License invalid"
+msgstr "Η άδεια χρήσης δεν είναι έγκυρη"
+
+#: upgrade/upgrade-to-pro.php:90
+msgid "License valid"
+msgstr "Η άδεια χρήσης είναι έγκυρη"
+
+#: upgrade/upgrade-to-pro.php:89
+msgid "Validating license..."
+msgstr "Επικύρωση άδειας χρήσης..."
+
+#: upgrade/upgrade-to-pro.php:84
+msgid "Destination folder already exists"
+msgstr "Ο φάκελος προορισμού υπάρχει ήδη"
+
+#: upgrade/upgrade-to-pro.php:83
+msgid "Able to create destination folder"
+msgstr "Δυνατότητα δημιουργίας φακέλου προορισμού"
+
+#: upgrade/upgrade-to-pro.php:82
+msgid "Checking if plugin folder exists..."
+msgstr "Πραγματοποιείται έλεγχος εάν υπάρχει ο φάκελος του πρόσθετου..."
+
+#: statistics/class-statistics.php:1229
+#: settings/build/index.e0dd88644084bc31d758.js:1
+#: settings/src/store/useDevicesStore.js:14
+msgid "Other"
+msgstr "Άλλο"
+
+#: statistics/class-statistics.php:1222
+#: settings/build/index.e0dd88644084bc31d758.js:1
+#: settings/src/store/useDevicesStore.js:13
+msgid "Mobile"
+msgstr "Κινητό τηλέφωνο"
+
+#: statistics/class-statistics.php:1225
+#: settings/build/index.e0dd88644084bc31d758.js:1
+#: settings/src/store/useDevicesStore.js:12
+msgid "Tablet"
+msgstr "Tablet"
+
+#: statistics/class-statistics.php:1219
+#: settings/build/index.e0dd88644084bc31d758.js:1
+#: settings/src/store/useDevicesStore.js:11
+msgid "Desktop"
+msgstr "Υπολογιστής"
+
+#: settings/templates/wordpress/dashboard-widget.php:49
+msgid "Most visited page"
+msgstr "Δημοφιλέστερη σελίδα"
+
+#: settings/templates/wordpress/dashboard-widget.php:39
+msgid "Top referrer"
+msgstr "Κορυφαία παραπομπή"
+
+#: class-notices.php:164
+msgid "If you have any suggestions to improve our plugin, feel free to %sopen a support thread%s."
+msgstr "Εάν έχετε οποιεσδήποτε προτάσεις για τη βελτίωση του πρόσθετού μας, μη διστάσετε να %sανοίξετε ένα θέμα υποστήριξης%s."
+
+#: settings/settings.php:477
+msgid "Complianz Privacy Suite - Cookie Consent Management as it should be"
+msgstr "Complianz Privacy Suite - Διαχείριση συγκατάθεσης των cookies όπως θα έπρεπε να είναι "
+
+#: statistics/class-statistics.php:146
+#: settings/build/910.b552d033d984703d1f32.js:1
+#: settings/build/index.e0dd88644084bc31d758.js:1
+#: settings/src/components/blocks/InsightsHeader.js:16
+#: settings/src/store/useCompareStore.js:15
+#: settings/src/store/useCompareStore.js:23
+#: settings/src/store/useCompareStore.js:56
+#: settings/src/store/useCompareStore.js:85
+msgid "Sessions"
+msgstr "Συνεδρίες"
+
+#: statistics/class-statistics.php:943
+msgid "Homepage"
+msgstr "Αρχική σελίδα"
+
+#: statistics/class-statistics.php:239 statistics/class-statistics.php:700
+#: statistics/class-statistics.php:932 statistics/class-statistics.php:1007
+msgid "Direct"
+msgstr "Άμεσες επισκέψεις"
+
+#: settings/templates/wordpress/dashboard-widget.php:21
+#: statistics/class-statistics.php:144
+#: settings/build/910.b552d033d984703d1f32.js:1
+#: settings/src/components/blocks/InsightsHeader.js:13
+msgid "Unique visitors"
+msgstr "Μοναδικοί επισκέπτες"
+
+#: functions.php:187
+msgid "For more information on this subject, please read this %sarticle%s"
+msgstr "Για περισσότερες πληροφορίες σχετικά με αυτό το θέμα, παρακαλώ διαβάστε αυτό το %sάρθρο%s"
+
+#: cron/cron.php:34
+msgid "Once every hour"
+msgstr "Μία φορά κάθε ώρα"
+
+#: cron/cron.php:30
+msgid "Once every day"
+msgstr "Μία φορά την ημέρα"
+
+#: cron/cron.php:26
+msgid "Once every week"
+msgstr "Μία φορά την εβδομάδα"
+
+#: class-notices.php:72
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: class-notices.php:68 settings/build/518.935000857b1bbb0d1d8d.js:1
+#: settings/src/components/blocks/ProgressBlock.js:26
+msgid "Completed"
+msgstr "Ολοκληρώθηκε"
+
+#: class-review.php:115
+msgid "Don't show again"
+msgstr "Να μην εμφανιστεί ξανά"
+
+#: class-review.php:111
+msgid "Maybe later"
+msgstr "Ίσως αργότερα"
+
+#: class-review.php:106
+msgid "Leave a review"
+msgstr "Γράψτε μια κριτική"
+
+#: class-review.php:101
+msgid "If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it!"
+msgstr "Εάν έχετε τον χρόνο, παρακαλούμε γράψτε μια κριτική στο WordPress.org ώστε να διαδώσετε τα νέα. Θα το εκτιμούσαμε πολύ!"
+
+#: class-review.php:98
+msgid "If you have any questions or feedback, leave us a %smessage%s."
+msgstr "Εάν έχετε οποιεσδήποτε ερωτήσεις ή σχόλια, γράψτε μας ένα %sμήνυμα%s."
+
+#: class-review.php:96
+msgid "Hi, you have been using Burst for more than a month now, awesome!"
+msgstr "Γεια σας! Έχετε χρησιμοποιήσει το Burst για ένα μήνα, καταπληκτικά!"
+
+#: class-admin.php:431
+msgid "Deactivate and delete all data"
+msgstr "Απενεργοποίηση και διαγραφή όλων των δεδομένων"
+
+#: class-admin.php:419
+msgid "The data will be gone forever."
+msgstr "Τα δεδομένα θα χαθούν για πάντα."
+
+#: class-admin.php:418
+msgid "Deactivate, and remove all statistics, experiments and settings."
+msgstr "Απενεργοποιήστε και καταργήστε όλα τα στατιστικά στοιχεία, τα πειράματα και τις ρυθμίσεις."
+
+#: class-admin.php:416 class-admin.php:430
+#: settings/build/72.b645d8c9dfe426acd849.js:1
+#: settings/src/components/blocks/Fields/License.js:69
+msgid "Deactivate"
+msgstr "Απενεργοποίηση"
+
+#: class-admin.php:413
+msgid "To deactivate the plugin correctly, please select if you want to:"
+msgstr "Για να απενεργοποιήσετε σωστά το πρόσθετο, παρακαλώ επιλέξτε εάν θέλετε να κάνετε τα εξής:"
+
+#: class-admin.php:239 settings/templates/wordpress/dashboard-widget.php:42
+#: settings/templates/wordpress/dashboard-widget.php:52
+#: statistics/class-goal-statistics.php:77 statistics/class-statistics.php:145
+#: settings/build/910.b552d033d984703d1f32.js:1
+#: settings/build/index.e0dd88644084bc31d758.js:1
+#: settings/src/components/blocks/InsightsHeader.js:14
+#: settings/src/store/useCompareStore.js:14
+#: settings/src/store/useCompareStore.js:22
+#: settings/src/store/useCompareStore.js:50
+#: settings/src/store/useCompareStore.js:80
+msgid "Pageviews"
+msgstr "Προβολές σελίδας"
+
+#: settings/config/config.php:252 statistics/class-statistics.php:589
+#: settings/build/index.e0dd88644084bc31d758.js:1
+#: settings/src/store/useFiltersStore.js:20
+msgid "Page"
+msgstr "Σελίδα"
+
+#: upgrade/upgrade-to-pro.php:147 upgrade/upgrade-to-pro.php:160
+#: upgrade/upgrade-to-pro.php:177 settings/build/518.935000857b1bbb0d1d8d.js:1
+#: settings/src/components/blocks/OtherPluginsBlock.js:69
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+#: upgrade/upgrade-to-pro.php:191 settings/build/518.935000857b1bbb0d1d8d.js:1
+#: settings/src/components/blocks/OtherPluginsBlock.js:90
+msgid "Installed"
+msgstr "Εγκατεστημένο"
+
+#: settings/config/config.php:8
+#: settings/templates/wordpress/dashboard-widget.php:61
+msgid "Dashboard"
+msgstr "Πίνακας Ελέγχου"
+
+#: class-frontend.php:33 settings/config/config.php:14
+#: settings/settings.php:215
+#: settings/templates/wordpress/dashboard-widget.php:62
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+#: class-admin.php:151 settings/build/index.e0dd88644084bc31d758.js:1
+#: settings/src/components/common/Header.js:46
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: class-admin.php:144 settings/config/config.php:20
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: class-admin.php:429 upgrade/upgrade-to-pro.php:371
+#: settings/build/72.b645d8c9dfe426acd849.js:1
+#: settings/src/components/blocks/Goals/DeleteGoalModal.js:23
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#. Author URI of the plugin
+msgid "https://burst-statistics.com"
+msgstr "https://burst-statistics.com"
+
+#. Author of the plugin
+msgid "Really Simple Plugins"
+msgstr "Really Simple Plugins"

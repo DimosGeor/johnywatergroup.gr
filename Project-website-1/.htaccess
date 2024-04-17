@@ -1,0 +1,96 @@
+# BEGIN HMWP_RULES
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^([_0-9a-zA-Z-]+/)?newlogin$ /wp-login.php [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?newlogin/(.*) /wp-login.php$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?lostpass$ /wp-login.php?action=lostpassword [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?register$ /wp-login.php?action=register [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/d0f4711431/(.*) /wp-content/plugins/hide-my-wp/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/1a03f1c702/(.*) /wp-content/plugins/akismet/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/f66237d9c8/(.*) /wp-content/plugins/animated-text-block/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/30abdd6f23/(.*) /wp-content/plugins/borderless/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/ee2924d87b/(.*) /wp-content/plugins/burst-statistics/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/597099b9c6/(.*) /wp-content/plugins/colorize-mobile-browser-bar/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/f65f29574d/(.*) /wp-content/plugins/elementor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/19264a84a8/(.*) /wp-content/plugins/header-footer-elementor/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/f9e2c7db84/(.*) /wp-content/plugins/really-simple-ssl/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/734cac179b/(.*) /wp-content/plugins/relevanssi/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/f913a6314f/(.*) /wp-content/plugins/sucuri-scanner/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/b063badb01/(.*) /wp-content/plugins/to-top/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/9f39203cc0/(.*) /wp-content/plugins/webp-converter-for-media/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/f9c7f63a6a/(.*) /wp-content/plugins/wordpress-seo/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/d06178e739/(.*) /wp-content/plugins/wp-customer-reviews/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/modules/(.*) /wp-content/plugins/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/7a678213cf/design.css$ /wp-content/themes/neve/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/7a678213cf/(.*) /wp-content/themes/neve/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/96f874eecb/design.css$ /wp-content/themes/twentytwentyone/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/96f874eecb/(.*) /wp-content/themes/twentytwentyone/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/a37e87dcf0/design.css$ /wp-content/themes/twentytwentythree/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/a37e87dcf0/(.*) /wp-content/themes/twentytwentythree/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/70da61391b/design.css$ /wp-content/themes/twentytwentytwo/style.css [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/70da61391b/(.*) /wp-content/themes/twentytwentytwo/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/views/(.*) /wp-content/themes/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?storage/(.*) /wp-content/uploads/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?core/(.*) /wp-content/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?lib/(.*) /wp-includes/$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?comments/(.*) /wp-comments-post.php$2 [QSA,L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?writer/(.*) /author/$2 [QSA,L]
+</IfModule>
+
+
+# END HMWP_RULES
+# BEGIN HMWP_VULNERABILITY
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{THE_REQUEST} etc/passwd [NC,OR]
+RewriteCond %{THE_REQUEST} cgi-bin [NC,OR]
+RewriteCond %{QUERY_STRING} (\<|%3C).*object.*(\>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} (<|%3C)([^o]*o)+bject.*(>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} (\<|%3C).*iframe.*(\>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} (<|%3C)([^i]*i)+frame.*(>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} base64_encode.*\(.*\) [NC,OR]
+RewriteCond %{QUERY_STRING} base64_(en|de)code[^(]*\([^)]*\) [NC,OR]
+RewriteCond %{QUERY_STRING} (localhost|loopback|127\.0\.0\.1) [NC,OR]
+RewriteCond %{QUERY_STRING} concat[^\(]*\( [NC,OR]
+RewriteCond %{QUERY_STRING} union([^s]*s)+elect [NC,OR]
+RewriteCond %{QUERY_STRING} union([^a]*a)+ll([^s]*s)+elect [NC,OR]
+RewriteCond %{QUERY_STRING} (sp_executesql) [NC]
+RewriteRule ^(.*)$ - [F]
+</IfModule>
+
+<IfModule mod_headers.c>
+Header always unset x-powered-by
+Header always unset server
+ServerSignature Off
+</IfModule>
+
+<IfModule mod_headers.c>
+Header set Strict-Transport-Security "max-age=15768000;includeSubdomains"
+Header set Content-Security-Policy "object-src 'none'"
+Header set X-XSS-Protection "1; mode=block"
+Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+
+
+# END HMWP_VULNERABILITY
+
+#Begin Really Simple Security
+Options -Indexes
+#End Really Simple Security
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
